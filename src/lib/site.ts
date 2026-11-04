@@ -1,7 +1,7 @@
 // Semua data bisnis ada di sini. Nilai dalam [kurung] belum dikonfirmasi pemilik.
 export const site = {
-  // Isi NEXT_PUBLIC_SITE_URL dengan domain final (tanpa garis miring di akhir) sebelum build produksi.
-  url: (process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000").replace(/\/$/, ""),
+  // Domain produksi. NEXT_PUBLIC_SITE_URL boleh menimpanya (tanpa garis miring di akhir), misalnya untuk uji lokal.
+  url: (process.env.NEXT_PUBLIC_SITE_URL ?? "https://layesconsultant.com").replace(/\/$/, ""),
   name: "Layes Konsultan",
   legalName: "PT Layes Konsultan Solusindo",
   description:
