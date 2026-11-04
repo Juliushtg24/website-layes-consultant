@@ -44,5 +44,7 @@ next-env.d.ts
 # design-taste-frontend inspector
 /.taste-skill/
 
-# dokumen pribadi pemilik (berisi NPWP), jangan ikut ke repo
-/docs/*.pdf
+# catatan internal dan dokumen pribadi pemilik (NPWP, KIP, NIB), repo ini publik
+/CLAUDE.md
+/MULAI-DI-SINI.md
+/docs/
