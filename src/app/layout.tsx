@@ -19,6 +19,7 @@ const jakarta = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
+  verification: { google: "PWc5EJfIDbUglRYIyeozijrn9mJuDf--Ux6kGl-VPps" },
   openGraph: { type: "website", locale: "id_ID", siteName: site.name },
   twitter: { card: "summary_large_image" },
   title: {
