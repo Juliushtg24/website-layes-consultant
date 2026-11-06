@@ -16,7 +16,7 @@ const data = [
   { term: "Badan usaha", value: site.legalName, how: "NIB bisa dicek di sistem OSS (oss.go.id).", detail: `NIB ${site.nib}` },
   {
     term: "Izin praktik konsultan pajak",
-    value: `${consultant.name}, Sertifikat ${license.practiceClass}`,
+    value: `${consultant.name}, Besertifikat ${license.practiceClass}`,
     detail: `No. ${license.practiceNumber}`,
     how: "Cari nama atau nomor izin di Sistem Informasi Konsultan Pajak Kementerian Keuangan.",
     url: "https://sikop.kemenkeu.go.id",

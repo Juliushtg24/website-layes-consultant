@@ -30,7 +30,7 @@ export const site = {
   license: {
     // Dari Kartu Izin Praktik (docs/KIP 2024), berlaku sampai 23-06-2026. NPWP sengaja tidak dicantumkan.
     practiceNumber: "KEP-288/SJ/PPPK/2024",
-    practiceClass: "A",
+    practiceClass: "BKP",
     legalCounselNumber: "KHP-00508",
     association: "AKP2I, IAI",
   },
